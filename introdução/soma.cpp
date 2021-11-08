@@ -4,11 +4,12 @@ using namespace std;
 
 int main(){
 	//receber dois números inteiros A e B e imprimir a soma deles.
-	int A,B;
+	int X,Y,S;
 	
-	cin>>A;//a variável A recebe o conteúdo por meio de cin>> 
-	cin>>B;
+	cin>>X;//a variável A recebe o conteúdo por meio de cin>> 
+	cin>>Y;
+	S=X+Y;
 	
-	cout<< A+B;//imprime A + B 
+	cout<< S;//imprime A + B 
 	return 0;		
 }
